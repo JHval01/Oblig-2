@@ -1,26 +1,111 @@
-body {
-    width: 135deg, #f5f7fa 0%, #c3cfe2 100%;
-    font-family: Lato, sans-serif;
-    font-size: 1.2rem;
-
-}
-
-h1,h2,h3 {
-    @font-face {
-        font-family: Montserrat-Bold, sans-serif;
-        src: url(Montserrat-Bold.ttf);
+@media screen and (max-width: 600px){
+        body {
+        font-family: Lato, sans-serif;
+        font-size: 1.2rem;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     }
-}
 
-h1 {
-    font-size: 4rem;
-}
+    h1,h2,h3 {
+        @font-face {
+            font-family: Montserrat-Bold, sans-serif;
+            src: url(Montserrat-Bold.ttf);
+        }
+    }
 
-h2 {
-    font-size: 2.2rem;
-}
+    h1 {
+        font-size: 4rem;
+    }
 
-p {
-    max-width: 70ch;
-    line-height: 1.5;
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        line-height: 1.5;
+    }
+
+    header{
+        display: flex;
+        height: 55vh;
+        background: url("assets/img/studentsbg.png");
+        background-size: 100vw;
+    }
+
+    header div{
+        position: relative;
+        top: 4rem;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        color: white;
+        background-color: #c5192d;
+    }
+
+    main {
+        width: 95vw;
+        margin-top: 4rem;
+        box-shadow: 0px 0px 1px 0px darkgray;
+        background-color: whitesmoke;
+        
+    }
+
+    #intro-container {
+        margin-top: 6rem;
+        background-color: #c5192d;
+        padding: 20px;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    li:nth-child(1)::before {
+        content: "\1F64C";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    li:nth-child(2)::before {
+        content: "\1F3EB";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    li:nth-child(3)::before {
+        content: "\1F4DA";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    article {
+        padding: 20px;
+        border: 0.1px;
+    }
+
+    article > img {
+        width: 100%;
+
+    }
+
+    footer {
+        margin-top: 2rem;
+        padding: 20px;
+        color: white;
+        background-color: #c5192d;
+    }
+
+    a {
+        color: white;
+    }
 }
