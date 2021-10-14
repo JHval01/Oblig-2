@@ -33,6 +33,7 @@
     }
 
     header div{
+        width: 95vw;
         position: relative;
         top: 4rem;
         margin-top: auto;
@@ -58,6 +59,7 @@
         margin-top: 6rem;
         background-color: #c5192d;
         padding: 20px;
+        margin-bottom: 2rem;
     }
 
     li{
@@ -89,13 +91,13 @@
     }
 
     article {
+        margin-top: 2rem;
+        border-bottom: 0.1px solid grey;
         padding: 20px;
-        border: 0.1px;
     }
 
     article > img {
         width: 100%;
-
     }
 
     footer {
