@@ -30,9 +30,12 @@ p {
 }
 
 header{
+    display: flex;
     height: 55vh;
     background: url("assets/img/studentsbg.png");
-    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header div{
