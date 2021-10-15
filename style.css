@@ -30,7 +30,6 @@ p {
 }
 
 header{
-    display: flex;
     height: 55vh;
     background: url("assets/img/studentsbg.png");
     background-size: 100%;
@@ -143,6 +142,10 @@ a {
         width: 45%;
         margin: auto;
     }
+
+    #intro-container {
+        background: linear-gradient(to right,#c5192d 50%, transparent 50%);
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -156,5 +159,9 @@ a {
 
     header {
         height: 65vh;
+    }
+
+    #intro-container {
+        background: linear-gradient(to right,#c5192d 50%, transparent 50%);
     }
 }
