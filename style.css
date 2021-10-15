@@ -9,11 +9,15 @@ body {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-h1, h2, h3 {
-    @font-face {
-    font-family: Montserrat-Bold, sans-serif;
+
+@font-face {
+    font-family: Montserrat-Bold;
     src: url("Montserrat-Bold.ttf");
-    }
+}
+
+
+h1, h2, h3 {
+    font-family: Montserrat-Bold, sans-serif;
 }
 
 h1 {
@@ -39,18 +43,23 @@ header{
 }
 
 header div{
+    width: 95%;
     position: relative;
     top: 4rem;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     text-align: center;
     color: white;
     background-color: #c5192d;
 }
+
+header h1 {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 
 main {
     width: 95%;
@@ -126,6 +135,9 @@ a {
         height: 65vh;
     }
 
+    header div {
+        width: 85%;
+    }
     main {
         width: 85%;
         margin: auto;
@@ -156,12 +168,31 @@ a {
         font-size: 24px;
     }
 
-    body {
-        width: 70%;
-    }
-
     header {
         height: 65vh;
+    }
+
+    header div{
+        width: 85%;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    article {
+        display: flex;
+        margin:auto;
+    } 
+
+    article div {
+        width: 45%;
+        margin: auto;
+    }
+
+    article img {
+        width: 45%;
+        margin: auto;
     }
 
     #intro-container {
