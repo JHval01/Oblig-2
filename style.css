@@ -55,9 +55,15 @@ header div{
 }
 
 header h1 {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+header p{
+    padding: 20px;
+    margin:auto;
+    text-align: center;
 }
 
 
@@ -105,6 +111,7 @@ li:nth-child(3)::before {
 
 article {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     border-bottom: 0.1px solid grey;
     padding: 20px;
 }
@@ -116,10 +123,16 @@ article > img {
 footer {
     width: 95%;
     margin-top: 2rem;
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    text-align: center;
     background-color: #c5192d;
+}
+
+footer p {
+    margin:auto;
+    padding: 20px;
+    text-align: center;
 }
 
 a {
@@ -138,6 +151,7 @@ a {
     header div {
         width: 85%;
     }
+
     main {
         width: 85%;
         margin: auto;
@@ -155,11 +169,15 @@ a {
 
     article img {
         width: 45%;
-        margin: auto;
+        margin-bottom: auto;
     }
 
     #intro-container {
         background: linear-gradient(to right,#c5192d 50%, transparent 50%);
+    }
+
+    footer {
+        width: 85%;
     }
 }
 
@@ -173,11 +191,11 @@ a {
     }
 
     header div{
-        width: 85%;
+        width: 70%;
     }
 
     main {
-        width: 85%;
+        width: 70%;
     }
 
     article {
@@ -192,10 +210,14 @@ a {
 
     article img {
         width: 45%;
-        margin: auto;
+        margin-bottom: auto;
     }
 
     #intro-container {
         background: linear-gradient(to right,#c5192d 50%, transparent 50%);
+    }
+
+    footer{
+        width: 70%;
     }
 }
