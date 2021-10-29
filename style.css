@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url("Montserrat-Bold.ttf");
+    src: url(Montserrat-Bold.ttf);
 }
 
 h1, h2, h3 {
